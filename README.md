@@ -1,2 +1,2 @@
 # Manhattan Plot
-A colorful style of Manhattan plot for genome-wide association studies using R function.
+An R function for colorful style of Manhattan plot of genome-wide association studies results.

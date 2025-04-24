@@ -2,7 +2,7 @@
 An R function for colorful style of Manhattan plot of genome-wide association studies results.
 
 ```R
-source()
+source("https://raw.githubusercontent.com/jianggl2000/Manhattan-Plot/refs/heads/main/manhattan.R")
 
 nchr=26
 nsnps=1000

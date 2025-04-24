@@ -20,7 +20,7 @@ head(testdata)
 #plot the manhattan figure
 manhattan(testdata)
 ```
-The header of the testdata. Make sure your data frame contains columns of CHR, BP, and P.
+The header of the testdata. Make sure your data frame contains columns of CHR, BP, and P. 
 <pre>
   SNP CHR BP          P
 1 rs1   1  1 0.03589639
@@ -30,6 +30,8 @@ The header of the testdata. Make sure your data frame contains columns of CHR, B
 5 rs5   1  5 0.96663348
 6 rs6   1  6 0.79437829
 </pre>
+
+The names of CHR is number 1 to 26, where 23 for chrX, 24 for chrY, 25 for XY and 26 for MT.
 
 The figure,
 

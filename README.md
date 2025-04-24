@@ -4,6 +4,7 @@ An R function for colorful style of Manhattan plot of genome-wide association st
 ```R
 source("https://raw.githubusercontent.com/jianggl2000/Manhattan-Plot/refs/heads/main/manhattan.R")
 
+#Simulate data for Manhattan plot
 nchr=26
 nsnps=1000
 testdata=data.frame(

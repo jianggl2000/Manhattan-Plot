@@ -31,7 +31,7 @@ The header of the testdata. Make sure your data frame contains columns of CHR, B
 6 rs6   1  6 0.79437829
 </pre>
 
-The names of CHR is number 1 to 26, where 23 for chrX, 24 for chrY, 25 for XY and 26 for MT.
+The names of CHR is number 1 to 26, where 23 for chrX, 24 for chrY, 25 for chrom XY and 26 for chrom MT.
 
 The figure,
 

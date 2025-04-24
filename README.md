@@ -34,3 +34,4 @@ The header of the testdata. Make sure your data frame contains columns of CHR, B
 The figure,
 
 ![Manhattan plot](https://github.com/jianggl2000/Manhattan-Plot/blob/main/manhattan.png)
+![Manhattan plot](manhattan.png)

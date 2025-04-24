@@ -14,7 +14,7 @@ testdata=data.frame(
 	P=runif(nchr*nsnps)
 )
 
-#show the header of the GWAS data
+#display the header of the GWAS data
 head(testdata)
 
 #plot the manhattan figure

@@ -20,7 +20,7 @@ head(testdata)
 #plot the manhattan figure
 manhattan(testdata)
 ```
-The header of the testdata,
+The header of the testdata. Make sure your data frame contains columns of CHR, BP, and P.
 <pre>
   SNP CHR BP          P
 1 rs1   1  1 0.03589639

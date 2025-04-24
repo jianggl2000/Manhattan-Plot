@@ -1,9 +1,7 @@
 # manhattan plot using base graphics
-manhattan = function(dataframe, myylab="", cols=colors()[c(26,32,48,73,54,62,44,84,145,107,115,128,135,139,143,257,371,435,448,454,461,493,132)], ymin=0, ymax="max", cex.x.axis=0.7, limitchromosomes=1:26, suggestiveline=1:30, genomewideline=-log10(5e-8), annotate=NULL, ...) {
-    cat("This function works only with plotting on the screen or pdf file. Please use manhattan2 if you want to save to other filetypes.\n")
-    cat(myylab)
-    #oldpar = par()
-	d=dataframe
+manhattan = function(dataframe, cols=colors()[c(26,32,48,73,54,62,44,84,145,107,115,128,135,139,143,257,371,435,448,454,461,493,132)], ymin=0, ymax="max", cex.x.axis=0.7, limitchromosomes=1:26, suggestiveline=1:30, genomewideline=-log10(5e-8), annotate=NULL, ...) {
+    cat("This function works only with plotting on the screen or pdf file.\n")
+    d=dataframe
     if (any(limitchromosomes)) 
 		d=d[d$CHR %in% limitchromosomes, ] #remove SNPs whose CHR outside of 1:26
 	d=subset(na.omit(d[order(d$CHR, d$BP), ]), (P>0 & P<=1)) # remove na's, sort, and keep only 0<P<=1
@@ -77,6 +75,5 @@ manhattan = function(dataframe, myylab="", cols=colors()[c(26,32,48,73,54,62,44,
     halfchr = ceiling(length(labchr)/2)
     legend(-max(d$pos)/10,-ymax/20, paste("Chr",labchr[1:halfchr], sep=""), fill=cols[1:halfchr], horiz=T, cex=0.8, border=F,bty="n", x.intersp=0.3)
     legend(-max(d$pos)/10,-ymax/10, paste("Chr",labchr[(halfchr+1):length(labchr)],sep=""), fill=cols[(halfchr+1):length(labchr)], horiz=T, cex=0.8, border=F,bty="n", x.intersp=0.3)
-    #par(oldpar)
     par(xpd=F)
 }

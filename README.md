@@ -12,7 +12,6 @@ testdata=data.frame(
     BP=rep(1:nsnps,nchr), 
 	P=runif(nchr*nsnps)
 )
-annotatesnps <- testdata$SNP[7550:7750]
 
 #show the header of the GWAS data
 head(testdata)

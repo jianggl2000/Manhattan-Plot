@@ -32,4 +32,5 @@ The header of the testdata,
 </pre>
 
 The figure,
+
 ![Manhattan plot](https://github.com/jianggl2000/Manhattan-Plot/blob/main/manhattan.png)

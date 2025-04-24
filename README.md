@@ -1,5 +1,5 @@
 # Manhattan Plot
-An R function for colorful style of Manhattan plot of genome-wide association studies results.
+An R function for colorful style of Manhattan plot of genome-wide association studies results, or any association results with chromosome coordinates and p-values.
 
 ```R
 source("https://raw.githubusercontent.com/jianggl2000/Manhattan-Plot/refs/heads/main/manhattan.R")

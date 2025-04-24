@@ -21,6 +21,7 @@ head(testdata)
 manhattan(testdata)
 ```
 The header of the testdata,
+`
   SNP CHR BP          P
 1 rs1   1  1 0.03589639
 2 rs2   1  2 0.96449950
@@ -28,6 +29,6 @@ The header of the testdata,
 4 rs4   1  4 0.68747009
 5 rs5   1  5 0.96663348
 6 rs6   1  6 0.79437829
-
+`
 The figure,
 ![Manhattan plot](https://github.com/jianggl2000/Manhattan-Plot/blob/main/manhattan.png)
